@@ -1,0 +1,5 @@
+CREATE TABLE videos (
+  videoId int AUTO_INCREMENT  PRIMARY KEY,
+  name VARCHAR(250) NOT NULL,
+  url VARCHAR(250) NOT NULL
+  );
